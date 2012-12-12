@@ -1,0 +1,14 @@
+#*.idea/**
+*.svn*
+*.settings*
+*.class
+target/**
+*~
+.svn*
+.svn
+.classpath
+tmp/**
+version.properties
+build/**
+bin/**
+.classpath

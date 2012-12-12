@@ -1,0 +1,14 @@
+Illicium is licensed under the LGPL 2.1 or the Apache License 2.0:
+
+http://www.apache.org/licenses/LICENSE-2.0.html
+http://www.gnu.org/licenses/lgpl-2.1.txt
+
+Components / based upon:
+Grails (Apache License)
+Cinnamon.humulus plugin
+CodeMirror 2 JavaScript library by Marijn Haverbeke, see web-app/js/CodeMirror-2.01/LICENSE)
+
+For an overview of the component's licenses, see:
+http://cinnamon-cms.de/cinnamonserver/license
+
+or have a look in docs/all_licenses.html folder.

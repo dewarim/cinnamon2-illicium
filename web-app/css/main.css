@@ -1,0 +1,445 @@
+html {
+    margin-top:-5px;
+    height:100%;
+    /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
+}
+
+/* GENERAL */
+
+.spinner {
+    padding: 5px;
+    position:absolute;
+    right: 0;
+    
+}
+
+body {
+    background-color: #CCC; 
+    color:#333;
+    font: 11px verdana, arial, helvetica, sans-serif;
+    margin-left:1ex;
+    margin-right:1ex;
+    height:100%;
+}
+
+
+
+a:link, a:visited, a:hover {
+    color: #010ef2;
+    font-weight: bold;
+    text-decoration: underline;
+} 
+
+h1 {
+    color:#006dba;
+    font-weight: normal;
+    font-size: 16px;
+    margin: .8em 0 .3em 0;
+}
+
+ul {
+    padding-left: 15px;	
+    
+}
+
+input, select, textarea {
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    font: 11px verdana, arial, helvetica, sans-serif;
+    margin: 2px 0;
+    padding: 2px 4px;
+}
+select {
+   padding: 2px 2px 2px 0;
+}
+textarea {
+	width: 250px;
+	height: 150px;
+	vertical-align: top;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #b2d1ff;
+}
+
+
+
+/* HEADER */
+
+#header{
+	background-color:#714A4A; 
+	border-color:#FFBD32 ; 
+	border-style: ridge;
+	color:white;
+    height:103px;
+}
+
+#TITLE{
+	position: absolute;  top:7px; left:50%;
+	color:white;
+	font-size:7ex;
+}
+
+.searchForm{
+	float:right;
+}
+
+
+.placeholder{
+	height:30px;
+	width: 250px;
+}
+
+.submit{
+	height:35px;
+	background-color:white;
+}
+
+/* NAVIGATION MENU */
+
+
+/* NAVIGATION MENU */
+
+.nav {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x; 
+    border: 1px #ccc;
+    border-style: solid none;
+    margin-top:0;/*5px*/
+    padding: 7px 12px;
+    margin-bottom:0;
+    height:18px;
+}
+
+.menuButton {
+    font-size: 10px;
+    padding: 0 5px;
+}
+.menuButton a {
+    color: #333;
+    padding: 4px 6px;
+}
+.menuButton a.home {
+    background: url(../images/skin/house.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.list {
+    background: url(../images/skin/database_table.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+.menuButton a.create {
+    background: url(../images/skin/database_add.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+/* MESSAGES AND ERRORS */
+
+.message {
+    background: #f3f8fc url(../images/skin/information.png) 8px 50% no-repeat;
+    border: 1px solid #b2d1ff;
+    color: #006dba;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 30px;
+}
+
+div.errors {
+    background: #fff3f3;
+    border: 1px solid red;
+    color: #cc0000;
+    margin: 10px 0 5px 0;
+    padding: 5px 0 5px 0;
+}
+div.errors ul {
+    list-style: none;
+    padding: 0;	
+}
+div.errors li {
+	background: url(../images/skin/exclamation.png) 8px 0 no-repeat;
+    line-height: 16px;
+    padding-left: 30px;
+}
+
+td.errors select {
+    border: 1px solid red;
+}
+td.errors input {
+    border: 1px solid red;
+}
+
+/* TABLES */
+
+table {
+    
+    /*
+    width:50%;
+     */
+    margin-top:5ex;
+    margin-left:1ex;
+    margin-right:1ex;
+    margin-bottom:5ex;
+    border-color: #FFBD32;   
+	border-style: ridge; 
+
+}
+tr {
+    border: 0;
+}
+td, th { 
+    font: 11px verdana, arial, helvetica, sans-serif;
+    line-height: 12px;
+    padding: 5px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+th {
+    background: #fff url(../images/skin/shadow.jpg);
+    color: #666;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+th a:link, th a:visited, th a:hover {
+    color: #333;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+th.asc a, th.desc a {
+    background-position: right;
+    background-repeat: no-repeat;
+}
+th.asc a {
+    background-image: url(../images/skin/sorted_asc.gif);
+}
+th.desc a {
+    background-image: url(../images/skin/sorted_desc.gif);
+}
+
+.odd {
+    color:black;
+    background: #f7f7f7; 
+}
+.even {
+    color:black;
+    background-color: #fef7ac;
+}
+
+/* LIST */
+
+.list table {
+    border-collapse: collapse;
+    
+}
+.list th, .list td {
+    border-left: 1px solid #ddd;
+}
+.list th:hover, .list tr:hover {
+    background: #d5e4fb;
+}
+
+/* PAGINATION */
+
+.paginateButtons {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    border-top: 0;
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtons a {
+    background: #fff;
+    border: 1px solid;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}
+
+/* DIALOG */
+
+.dialog table {
+    padding: 5px 0;
+    
+}
+
+.prop {
+    padding: 5px;
+}
+.prop .name {
+    text-align: left;
+    width: 15%;
+    white-space: nowrap;
+}
+.prop .value {
+    text-align: left;
+    width: 85%;
+    
+}
+
+/* ACTION BUTTONS */
+
+.buttons {
+    background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.buttons input {
+    background: #fff;
+    border: 0;
+    color: #333;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 3px;
+    overflow: visible;
+    padding: 2px 6px;
+}
+.buttons input.delete {
+    background: transparent url(../images/skin/database_delete.png) 5px 50% no-repeat;
+    padding-left: 28px;
+}
+.buttons input.edit {
+    background: transparent url(../images/skin/database_edit.png) 5px 50% no-repeat;
+    padding-left: 28px;
+}
+.buttons input.save {
+    background: transparent url(../images/skin/database_save.png) 5px 50% no-repeat;
+    padding-left: 28px;
+}
+/*-------------- Illicium custom ------------------*/
+
+div.folder_tree{
+    margin-right:2px;
+    border-color: #FFBD32;
+	border-style: ridge;
+	background-color:#FCFAE1;
+    max-width: 30%;
+    min-width: 30%;
+    min-height: 80%;
+    height:400px;
+    padding: 8px;
+}
+
+div.content{
+    background-color:#FFF;
+    color:black;
+    float:left;
+    padding:1ex;
+    border-color: #FFBD32;
+	border-style: ridge;
+   	width:100%;
+}
+
+.clear{
+    clear:both;
+}
+
+.folder_content, .object_details, .folder_meta{
+    float:left;
+    margin-right:1ex;
+    padding:1ex;
+    margin-left:1ex; 
+
+    /*background-color:red; ZUM TESTEN*/
+
+}
+
+.nav_arrow{
+    border:0;
+}
+
+.grand_children{
+    padding-left:1.5ex; /*folder 2*/
+    
+}
+
+.object_preview{
+
+}
+.metadata{
+
+}
+
+.osd_content, .medadata_view{    
+    padding:1ex;
+    margin:1ex;
+   
+}
+
+tr.row_highlight{
+    background-color: #ddf6fe;
+}
+
+.error_message{
+    margin:1ex;
+    padding:1ex;
+    background-color:yellow;
+    color:black;
+}
+
+a.close_button{
+    padding-left:2ex;
+}
+
+.center{
+    text-align:center;
+}
+
+td.right{
+    text-align:right;
+}
+
+tr.trigger_osd > td{
+    font-style:italic;
+}
+
+img.noborder{
+    border:0;
+}
+
+div.main_index{
+    float:left;
+    margin:1ex;
+    padding:1ex;
+    
+}
+
+div.relationMetadata{
+    overflow: auto;width: 40ex;
+    
+}
+
+/* link in folder tree view to display content of a folder: */
+span.folder_name_content{
+    font-style: normal;
+}
+span.folder_name_no_content{
+    font-style: oblique;
+}
+
+div.object_version_select{
+    margin-top: -2ex;
+}
+
+img.folder_info{
+    border: 0;
+}
+
+div.object_selection{
+    float:left;
+    display:none;
+}
