@@ -1,87 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
-    <facet type="web" name="GrailsWeb">
-      <configuration>
-        <webroots>
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-ui-1.8.15/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/grails-app/views" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-1.8.0/web-app" relative="/" />
-        </webroots>
-        <sourceRoots />
-      </configuration>
-    </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map>
-          <unit-entry name="Gorm" />
-          <unit-entry name="sessionFactory" />
-        </datasource-map>
+        <datasource-map />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/hibernate-2.1.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/hibernate-2.1.1/grails-app/i18n" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/illicium/plugins/hibernate-2.2.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.1/projects/illicium/plugins/hibernate-2.2.1/grails-app/i18n" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/grails-app/controllers" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/grails-app/services" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-1.8.0">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-1.8.0/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-1.8.0/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-1.8.0/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-1.8.0/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-ui-1.8.15">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-ui-1.8.15/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/jquery-ui-1.8.15/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/resources-1.1.6">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/resources-1.1.6/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/spring-security-core-1.2.7.3">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/spring-security-core-1.2.7.3/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/spring-security-core-1.2.7.3/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/spring-security-core-1.2.7.3/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/spring-security-core-1.2.7.3/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/spring-security-core-1.2.7.3/grails-app/taglib" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/tomcat-2.1.1" />
-    <content url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/webxml-1.4.1">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
-    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.1/projects/illicium/plugins/tomcat-2.2.1" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="grails-2.1.1" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.2.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (Illicium-grailsPlugins)">
         <CLASSES>
-          <root url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/lib" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/c3p0/c3p0/jars/c3p0-0.9.1.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/antlr/antlr/jars/antlr-2.7.6.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/postgresql/postgresql/jars/postgresql-9.1-901.jdbc4.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/jaxen/jaxen/jars/jaxen-1.1.4.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.lucene/lucene-core/jars/lucene-core-3.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/c3p0/c3p0/jars/c3p0-0.9.1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hibernate/hibernate-c3p0/jars/hibernate-c3p0-3.6.10.Final.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/javassist/javassist/jars/javassist-3.12.0.GA.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-3.6.10.Final.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/antlr/antlr/jars/antlr-2.7.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/.grails/2.1.1/projects/illicium/plugins/humulus-0.6.8/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>
